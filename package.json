@@ -1,0 +1,27 @@
+{
+  "name": "habbogiveaway.nl",
+  "version": "1.0.0",
+  "description": "Educatieve anti‑scam pagina namens de Habbo Ambassadeurs.",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./style.source.css -o ./style.css",
+    "dev": "npm run tailwind -- --watch",
+    "build": "npm run tailwind"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roboroads/habbogiveaway.nl.git"
+  },
+  "keywords": [
+    "habbo"
+  ],
+  "author": "Roboroads",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/Roboroads/habbogiveaway.nl/issues"
+  },
+  "homepage": "https://github.com/Roboroads/habbogiveaway.nl#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
